@@ -37,6 +37,7 @@ public class JoinView extends JFrame{
 		this.setLayout(null);
 		jlb_id.setBounds(50, 30, 50, 50);
 		jlb_pw.setBounds(100, 150, 50, 50);
+		System.out.println("ㅎㅇ");
 //		jlb_pw_confirm.setBounds(x, y, width, height);
 //		jlb_name.setBounds(x, y, width, height);
 //		jlb_birth.setBounds(x, y, width, height);
