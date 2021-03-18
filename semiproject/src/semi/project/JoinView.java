@@ -1,6 +1,7 @@
 package semi.project;
 
 import java.awt.BorderLayout;
+import java.awt.Font;
 
 import javax.swing.JButton;
 import javax.swing.JCheckBox;
@@ -26,6 +27,7 @@ public class JoinView extends JFrame{
 	JLabel			jlb_birth		= new JLabel("생년월일");
 	JCheckBox		jcb				= new JCheckBox("멤버십 가입");
 	JLabel			jlb_text		= new JLabel("멤버십에 가입하시면 적립과 할인 혜택을 받을 수 있습니다.");
+	Font			myfont			= new Font(null, 0, 20);
 	
 	//생성자
 	public JoinView() {
@@ -35,22 +37,35 @@ public class JoinView extends JFrame{
 	//화면처리부
 	public void initDisplay() {
 		this.setLayout(null);
-		jlb_id.setBounds(50, 30, 50, 50);
-		jlb_pw.setBounds(100, 150, 50, 50);
-		System.out.println("ㅎㅇ");
-//		jlb_pw_confirm.setBounds(x, y, width, height);
-//		jlb_name.setBounds(x, y, width, height);
-//		jlb_birth.setBounds(x, y, width, height);
-//		jtf_id.setBounds(x, y, width, height);
-//		jtf_pw.setBounds(x, y, width, height);
-//		jtf_pw_confirm.setBounds(x, y, width, height);
-//		jtf_name.setBounds(x, y, width, height);
-//		jbtn_check.setBounds(x, y, width, height);
-//		jbtn_join.setBounds(x, y, width, height);
-//		jbtn_back.setBounds(x, y, width, height);
-//		jcb.setBounds(x, y, width, height);
-//		jlb_text.setBounds(x, y, width, height);
-		this.add(jlb_id);
+//		jlb_id			
+//		jlb_pw			
+//		jlb_pw_confirm
+//		jlb_name		
+//		jlb_birth		
+//		jtf_id			
+//		jtf_pw			
+//		jtf_pw_confirm	
+//		jtf_name		
+//		jbtn_check		
+//		jbtn_join		
+//		jbtn_back		
+//		jcb				
+//		jlb_text		
+		jlb_id			.setBounds(50, 30, 50, 50);
+		jlb_pw			.setBounds(100, 150, 50, 50);
+//		jlb_pw_confirm.	setBounds(x, y, width, height);
+//		jlb_name		.setBounds(x, y, width, height);
+//		jlb_birth		.setBounds(x, y, width, height);
+//		jtf_id			.setBounds(x, y, width, height);
+//		jtf_pw			.setBounds(x, y, width, height);
+//		jtf_pw_confirm	.setBounds(x, y, width, height);
+//		jtf_name		.setBounds(x, y, width, height);
+//		jbtn_check		.setBounds(x, y, width, height);
+//		jbtn_join		.setBounds(x, y, width, height);
+//		jbtn_back		.setBounds(x, y, width, height);
+//		jcb				.setBounds(x, y, width, height);
+//		jlb_text		.setBounds(x, y, width, height);
+//		this.add(jlb_id);
 		this.add(jlb_pw);
 		this.setSize(600, 400);
 		this.setVisible(true);
