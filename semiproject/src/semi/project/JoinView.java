@@ -1,5 +1,7 @@
 package semi.project;
 
+import java.awt.BorderLayout;
+
 import javax.swing.JButton;
 import javax.swing.JCheckBox;
 import javax.swing.JFrame;
@@ -32,21 +34,23 @@ public class JoinView extends JFrame{
 	
 	//화면처리부
 	public void initDisplay() {
-		jlb_id			.setBounds(100, 80, 50, 50);
-//		jlb_pw			.setBounds(x, y, width, height);
-//		jlb_pw_confirm	.setBounds(x, y, width, height);
-//		jlb_name		.setBounds(x, y, width, height);
-//		jlb_birth		.setBounds(x, y, width, height);
-//		jtf_id 			.setBounds(x, y, width, height);
-//		jtf_pw 			.setBounds(x, y, width, height);
-//		jtf_pw_confirm 	.setBounds(x, y, width, height);
-//		jtf_name		.setBounds(x, y, width, height);
-//		jbtn_check		.setBounds(x, y, width, height);
-//		jbtn_join		.setBounds(x, y, width, height);
-//		jbtn_back		.setBounds(x, y, width, height);
-//		jcb				.setBounds(x, y, width, height);
-//		jlb_text		.setBounds(x, y, width, height);
+		this.setLayout(null);
+		jlb_id.setBounds(50, 30, 50, 50);
+		jlb_pw.setBounds(100, 150, 50, 50);
+//		jlb_pw_confirm.setBounds(x, y, width, height);
+//		jlb_name.setBounds(x, y, width, height);
+//		jlb_birth.setBounds(x, y, width, height);
+//		jtf_id.setBounds(x, y, width, height);
+//		jtf_pw.setBounds(x, y, width, height);
+//		jtf_pw_confirm.setBounds(x, y, width, height);
+//		jtf_name.setBounds(x, y, width, height);
+//		jbtn_check.setBounds(x, y, width, height);
+//		jbtn_join.setBounds(x, y, width, height);
+//		jbtn_back.setBounds(x, y, width, height);
+//		jcb.setBounds(x, y, width, height);
+//		jlb_text.setBounds(x, y, width, height);
 		this.add(jlb_id);
+		this.add(jlb_pw);
 		this.setSize(600, 400);
 		this.setVisible(true);
 	}
